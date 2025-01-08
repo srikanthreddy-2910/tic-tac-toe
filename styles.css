@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  gap: 5vmin;
+  padding-top: 5vmin;
+}
+
+.hide {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.winner {
+  font-size: 8vmin;
+}
+#new-game {
+  width: 15vmin;
+  height: 7vmin;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 2.2vmin;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #555555;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+  height: 60vmin;
+  width: 60vmin;
+}
+
+.box {
+  height: 19vmin;
+  width: 19vmin;
+  border-radius: 1rem;
+  border: 0;
+  font-size: 10vmin;
+  background-image: linear-gradient(
+    to right,
+    #16a085 0%,
+    #f4d03f 51%,
+    #16a085 100%
+  );
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+}
+
+.box:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.reset-game {
+  width: 15vmin;
+  height: 7vmin;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 2.2vmin;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: #555555;
+}
